@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/zakaz.css">
+    <title></title>
+  </head>
+  <body>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <div id="top">
+      <header class="header">
+
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+                <a class="nav-link" href="tel: 89269269417"><span class="fas fa-phone-alt"></span>
+                <span class="text">8-926-926-94-17</span></a>
+          </li>
+          <li class="nav-item">
+            <hr align="center" width="100" size="1" color="#ff0000" />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+            <span class="text-title">CAKES</span></a>
+          </li>
+          <li class="nav-item">
+            <hr align="center" width="100" size="1" color="#ff0000" />
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" ><span class="fas fa-city"></span>
+            <span class="text">Москва</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Login.html"><span class="fas fa-user-shield"></span>
+              <span class="text">Войти</span></a>
+          </li>
+        </ul>
+        <center>
+        <div id="menu">
+          <div class="container">
+            <ul class="nav justify-content-center">
+              <li class="nav-item"><a class="nav-link" href="how.html">Как мы это делаем</a></li>
+              <li class="nav-item"><a class="nav-link" href="galery.html">Наши торты</a></li>
+              <li class="nav-item"><a class="nav-link" href="zakaz.html">Заказать торт</a></li>
+              <li class="nav-item"><a class="nav-link" href="oplata.html">Оплата и доставка</a></li>
+              <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </div>
+          </div>
+        </center>
+        </header>
+        <div id="tort">
+          <img src="http://www.tortoeshka.ru/DESIGN/SITE/images/devCake.png">
+        </div>
+      </div>
+      <div id="back">
+      <div id="pridumat">
+        <center><h1>ПРИДУМАТЬ ТОРТ</h1>
+        <p>По вашему желанию мы можем изменить отдельные детали любого торта из каталога или приготовить эксклюзивный торт с учетом ваших пожеланий, в том числе оригинальные подарки на день рождения. Мы сделаем торт уникальным, и он будет подходить именно для Вашего праздника. Вы можете сами придумать, например, свадебные торты на заказ или торты на заказ детские.</p>
+        </center>
+      </div>
+
+<script src="js/jquery.maskedinput.min.js"></script>
+<center><img src="timeIcon.png" alt=""></center>
+<center><h1>Заполните форму заказа</h1></center>
+      <div id="forma">
+
+          <p>Корж: </p><select class="select2 select2-offscreen" name="basis" tabindex="-1" title=""><option value="8">Ванильный бисквит</option><option value="3">Классический бисквит</option><option value="9">Лимонный бисквит</option><option value="6">Медовый бисквит</option><option value="14">Медовые коржи</option><option value="7">Шоколадный бисквит</option><option value="13">Морковный бисквит</option><option value="12">Обсудить с кондитером</option></select>
+          <br><p>Крем: </p><select class="select2 select2-offscreen" name="filler" tabindex="-1" title="" size=1><option value="16">Варёное сгущённое молоко со сливочным маслом</option><option value="13">Легкий сливочно-творожный крем на основе творожного сыра с натуральными сливками</option><option value="17">Нежное сливочно-йогуртовое суфле с натуральным йогуртом</option><option value="12">Нежный сливочный крем из натуральных коровьих сливокк</option>
+            <option value="15">Сливочно-сметанный крем из натуральных сливок и свежей сметаны</option><option value="20">Крем-чиз</option><option value="21">Шоколадный крем (на основе сливочного с добавлением шоколада)</option><option value="22">Фисташковый на основе творожного сыра с крошкой из шоколада и фисташки</option><option value="19">Обсудить с кондитером</option></select>
+          <br><p>Наполнитель: </p><select class="select2 select2-offscreen" name="cream" tabindex="-1" title=""><option value="8">Грецкие орехи, курага, чернослив</option><option value="11">Клубника, перетертая с сахаром</option><option value="14">Кусочки свежего банана</option><option value="18">Кусочки свежего киви</option><option value="13">Вишня, перетертая с сахаром</option><option value="16">Черная смородина, перетертая с сахаром</option><option value="17">Малина, перетертая с сахаром</option><option value="19">Арахис и карамель</option><option value="15">Обсудить с кондитером</option></select>
+          <br><p>Дата: </p><input type="date" id="start" name="trip-start"
+       value="2021-05-01"
+       min="2021-01-01" max="2022-12-31">
+       <br><center><p>Загрузите фотографию</p></center>
+       <center><p><input type="file" name="photo" multiple accept="image/*,image/jpeg"></p></center>
+      <br>
+      <p>Ваше имя: </p><span class="colortext">*</span><input type="text">
+      <br>
+      <p>Ваш номер: </p><span class="colortext">*</span><input  id="phone" type="text">
+      <br>
+      <p>Ваш email: </p><span class="colortext">*</span><input  type="email">
+      <br>
+      <p>Комментарий: </p><input  type="email" >
+      <div class="offer"><span class="colortext">*</<span></span> Отправляя заполненную форму, Вы даете согласие на обработку Ваших персональных данных в соответствии с Федеральным законом № 152-ФЗ от 27.07.2006 г.</div>
+      <center><button class="button"><span>Отправить</span><span>Отправить</span></button></center>
+</div>
+</div>
+<div id="footer">
+    <div class="main-content">
+        <div class="left box">
+            <h2>Социальные сети</h2>
+            <div class="content">
+                <p>Вы можете найти нас в социальных сетях</p>
+                <div class="social">
+                    <a href="https://www.facebook.com"><span class="fab fa-facebook-f"></span></a>
+                    <a href="https://www.twitter.com/"><span class="fab fa-twitter"></span></a>
+                    <a href="https://www.instagram.com/vovan_mx188/"><span class="fab fa-instagram"></span></a>
+                    <a href="https://www.youtube.com/"><span class="fab fa-youtube"></span></a>
+                </div>
+            </div>
+        </div>
+        <div class="center box">
+            <h2>Контакты</h2>
+            <div class="content">
+                <p>Свяжитесь с нами</p>
+                <div class="place">
+                    <a href="filials.html#cont"><span class="fas fa-map-marker-alt"></span>
+                    <span class="text">Москва</span></a>
+                </div>
+                <div class="phone">
+                    <a href="tel: 89269269417"><span class="fas fa-phone-alt"></span>
+                    <span class="text">8-926-926-94-17</span></a>
+                </div>
+                <div class="email">
+                    <a href="mailto: sychev_188@mail.ru"><span class="fas fa-envelope"></span>
+                    <span class="text">sychev_188@mail.ru</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+  </body>
+</html>
