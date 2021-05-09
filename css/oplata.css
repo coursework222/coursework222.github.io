@@ -81,7 +81,6 @@ a{
 }
 #pay table{
   width: 1000px;
-  margin-left: 300px;
   table-layout: fixed;
 }
 #pay td{
@@ -89,7 +88,9 @@ a{
   padding: 0 40px;
   vertical-align: top;
 }
-
+#pays img{
+  width: 650px;
+}
 #pays h1{
   font-weight: bold;
   text-align: center;
@@ -102,7 +103,6 @@ a{
 }
 #pays table{
   width: 1000px;
-  margin-left: 300px;
   table-layout: fixed;
 }
 #pays td{
