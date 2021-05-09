@@ -55,7 +55,7 @@ a{
   margin-left: 70px;
   height: 100px;
   width: 1080px;
-  background-image: url("image_for_css/bg.png");
+  background: url("image_for_css/bg.png");
 }
 #menu .row{
   padding-left: 10px;
