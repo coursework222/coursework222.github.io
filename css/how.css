@@ -63,7 +63,7 @@ font-family: 'Roboto', sans-serif;
   margin-left: 80px;
   height: 100px;
   width: 1080px;
-  background-image: url(http://www.tortoeshka.ru/DESIGN/SITE/images/mainMenuBg.png);
+  background-image: url("image_for_css/bg.png");
 }
 #menu .row{
   padding-left: 10px;
